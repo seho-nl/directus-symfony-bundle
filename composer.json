@@ -1,0 +1,25 @@
+{
+    "name": "seho-nl/directus-symfony-bundle",
+    "description": "A Directus API Client for Symfony",
+    "type": "symfony-bundle",
+    "license": "GPL-3.0",
+    "version": "1.0.0-dev",
+    "authors": [
+        {
+            "name": "Sebastien Hoek",
+            "email": "sebastienhoek@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "^5.0",
+        "symfony/yaml": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sehonl\\DirectusSymfonyBundle\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
